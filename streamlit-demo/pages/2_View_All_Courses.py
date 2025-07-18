@@ -1,10 +1,18 @@
 import streamlit as st
 import pandas as pd
 import json
+import os
 
+# Get absolute path to the directory of the current script
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Go up to the parent folder and then into /data
+data_path = os.path.join(script_dir, '..', 'data', 'courses-full.json')
+
+# Normalize the path (helps avoid issues on Windows/macOS/Linux)
+filepath = os.path.abspath(data_path)
 
 # Load the JSON file
-filepath = './data/courses-full.json'
 with open(filepath, 'r') as file:
     json_string = file.read()
     dict_of_courses = json.loads(json_string)
