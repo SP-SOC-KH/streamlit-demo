@@ -5,6 +5,7 @@ import os
 
 from auth import check_password
 
+
 if not check_password():
     st.stop()
     
