@@ -64,9 +64,11 @@ def identify_category_and_courses(user_message):
 # user_query = "I'm interested in learning about artificial intelligence."
 # result_category_course = identify_category_and_courses(user_query)
 # print(result_category_course) 
+current_dir = os.path.join(__file__)
 
+parent_dir = os.path.dirname(current_dir)
 
-filepath = os.path.join(os.path.dirname(__file__), 'data', 'courses-full.json')
+filepath = os.path.join(os.path.dirname(__file__), os.pardir, 'data', 'courses-full.json')
 # filepath = 'courses-full.json'
 
 # dict_of_courses = {}
