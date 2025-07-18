@@ -3,6 +3,11 @@ import pandas as pd
 import json
 import os
 
+from auth import check_password
+
+if not check_password():
+    st.stop()
+    
 # region <--------- Streamlit App Configuration --------->
 st.set_page_config(
     layout="centered",

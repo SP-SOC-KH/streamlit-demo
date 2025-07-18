@@ -2,6 +2,7 @@
 import streamlit as st
 from helper_functions import llm # <--- This is the helper function that we have created 🆕
 from logics import customer_query_handler
+from auth import check_password
 
 def process_user_message(user_input):
     delimiter = "```"
@@ -24,7 +25,9 @@ st.set_page_config(
     page_title="My Streamlit App"
 )
 # endregion <--------- Streamlit App Configuration --------->
-
+if not check_password():
+    st.stop()
+    
 st.title("Streamlit App")
 
 form = st.form(key="form")
