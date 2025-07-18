@@ -1,0 +1,127 @@
+Week,Week Of,Scope,Activities for this week,Description,Learning Outcome,Project Timeline
+1,"Monday, 19 May 2025","Getting Started with LLMs & Prompt Engineering
+","* Finish Topic 1 materials (1-7)
+* Familiarize yourself with the Prompt Engineering Playbook (as a reference, no need to finish everything just yet)
+* Complete week 1 hands-on (#1)
+
+https://www.developer.tech.gov.sg/products/collections/data-science-and-artificial-intelligence/playbooks/prompt-engineering-playbook-beta-v3.pdf","LLM & Prompt Engineering
+* Foundations of Large Language Models (LLMs): 
+Introduce the core concepts, capabilities, and limitations of LLMs, including how they process and generate text.
+* Programmatic Usage of LLMs: 
+Demonstrate how to integrate LLMs into applications using Python. Showcase best practices for handling multiple or repetitive requests (e.g., batch processing).
+* Prompt Engineering Techniques: 
+Explore fundamental frameworks for designing prompts, including the use of Python triple-quoted strings and f-string formatting to dynamically incorporate context.
+","* Discover the use cases of LLM solutions.
+* Apply foundational prompt engineering techniques to improve model performance and handle repetitive or sequential tasks.
+* Learn and build prompt templates in Python using triple quotes and f-strings for flexible and maintainable code.
+","Project Briefing
+* Capstone Assignment: 
+Building an Interactive LLM-Powered Solution
+
+- Category A (Sensitive) or B (Non-sensitive)
+- Group of 2 to 4
+- Develop a web-based application that addresses a problem statement from your agency or enhances citizen interaction with publicly available information related to a specific government process or transaction.
+
+This project aims to showcase the ability to design and develop a user-friendly web application that serves as a platform for citizens to efficiently access and navigate essential government-related information."
+2,"Monday, 26 May 2025","Dive Deeper into LLMs
+","* Finish Topic 2 materials (1-6)
+* Complete week 2 hands-on (#2)","LLMs and the Parameters
+* LLM Parameter Overview: 
+Provide an in-depth look at core LLM parameters
+- tokens, temperature, top-k, top-p and other parameters.
+* Structured Data in Prompts: 
+Illustrate how to incorporate structured data (e.g., CSV, HTML tables) into prompts for more precise outputs.
+* Quality & Safety Measures: 
+Address potential pitfalls such as prompt injections, content moderation (self-harm, unlawful, or hateful content), and output validation.","* Learn and apply the important parameters such as temperature, top-k, and top-p impact the style, diversity, and accuracy of LLM responses.
+* Discover the major LLMs and aware of different LLMs’ capabilities, performance trade-offs.
+* Learn to embed and parse structured data in prompts for tasks such as data cleaning, analysis, or reporting.
+",
+3,"Monday, 2 June 2025",Break (To accommodate Hari Raya Haji),No class,,,
+4,"Monday, 9 June 2025",Building System with Advanced Prompting & Chaining,"* Complete week 4 hands-on (#3), part 1 & 2
+* Quiz 1","Use Case Archetypes #1: Building Systems with Advanced Prompting and Prompt Chaining
+* Advanced Prompting: 
+Dive into instruction-based prompting techniques that enhance the model’s reasoning and output quality.
+* ChatCompletion API & Chat History: 
+Explore the ChatCompletion API for multi-turn conversations, maintaining and leveraging conversation history effectively.
+* Multi-Action & Prompt Chaining: 
+Examine how to chain multiple prompts (e.g., Sequential Chains, Router Chains) to solve complex, multi-step tasks.
+* Quality & Safety Measures: 
+Address potential pitfalls such as prompt injections, content moderation (self-harm, unlawful, or hateful content), and output validation.","* Develop multi-step LLM pipelines to tackle intricate problems.
+* Implement advanced prompting techniques to guide the LLM’s reasoning process, improving relevance and accuracy.
+* Evaluate and filter LLM inputs/outputs to ensure safety, reliability, and compliance with ethical guidelines.
+* Apply sequential and router chains to orchestrate multiple LLM calls in a single workflow.","* Ideation & Project Proposal Submission with group members: 
+Guide participants through the process of conceptualizing an AI solution, defining its scope, and proposing a feasible plan. This includes identifying the core problem statement, target users, and the specific use cases the solution will address.
+"
+5,"Monday, 16 June 2025",From Embeddings to Applications,"* Complete week 5 hands-on (#4), part 1 & 2","Use Case Archetypes #2: From Embeddings to Applications
+* Embeddings Fundamentals: 
+Explain how embeddings represent text in high-dimensional vector spaces and why they’re crucial for semantic understanding.
+* Use Case #1: Retrieval-Augmented Generation (RAG): 
+Show how RAG can combine LLM generation with external knowledge sources for more accurate and up-to-date outputs.
+* Use Case #2: Search & Retrieval Beyond Keywords: 
+Demonstrate how embedding-based search can outperform traditional keyword searches in tasks like recommendation or classification.
+* Use Case #3: Predictive Analytics: 
+Explore how embeddings can be leveraged for predictive tasks (e.g., clustering, similarity scoring) in data science pipelines.","* Learn and apply the underlying mechanisms behind embeddings
+* Learn to incorporate external data retrieval into LLM workflows, improving factual accuracy and context.
+* Apply embedding-based methods for semantic search and retrieval, enabling more nuanced data exploration.
+* Learn to build embeddings feed into predictive analytics, fueling tasks such as sentiment analysis, anomaly detection, or recommendation engines.",
+6,"Monday, 23 June 2025",Advanced RAG,"* Complete week 6 hands-on (#5), part 1 & 2","Use Case Archetypes #3: Chat with Your Data – A Deeper Dive into RAG
+* Pre-Retrieval Optimization: 
+Investigate strategies for preprocessing and organizing data to improve retrieval quality and speed.
+* Enhanced Retrieval Techniques: 
+Discuss best practices for indexing, vector databases, and similarity scoring to find the most relevant context.
+* Post-Retrieval Processing & RAG Evaluation: 
+Cover techniques for refining retrieved information (e.g., summarization, ranking) and evaluating overall RAG performance.
+* Proprietary Data & Access Control: 
+Address how to securely integrate private data into RAG pipelines while maintaining granular control over usage.","* Build and refine a retrieval-augmented pipeline capable of handling proprietary or domain-specific data.
+* Learn and apply the mechanisms that unpinning the performance of a RAG applications
+* Learn to build an LLM solution with ability take in proprietary data and info, with granular control on the how these data/info being used in the pipeline.",
+7,"Monday, 30 June 2025",Autonomous Agents with Tools,"* Complete week 7 hands-on (#6), part 1 & 2
+* Quiz 2","Use Case Archetypes #4: LLM Agents with Tools
+* Agents & Multi-Agent Systems: 
+Introduce the concept of autonomous LLM “agents” that can decide how and when to use external tools or APIs.
+* Function Calling & Tool Integration: 
+Show how to enable LLMs to call functions (e.g., calculators, web search, or APIs) to complete tasks requiring external capabilities.
+* Development Environment Essentials: 
+Provide an overview of Python development setups using VS Code, virtual environments (venv), and package management with pip.
+* Python for App Building: 
+Cover best practices for writing and running Python scripts, including exception handling and debugging.","* Learn to create LLM solutions that dynamically select and invoke tools to gather real-time information or perform the given tasks.
+* Learn to build LLM solutions that can gather and use latest information from the Internet or other sources.",
+8,"Monday, 7 July 2025",Quick Prototyping with Streamlit,* Complete week 8 hands-on (#7),"Building AI Apps (Part #1)
+* Streamlit Basics: 
+Introduce Streamlit’s architecture, focusing on quick, user-friendly interfaces for AI pipelines.
+* Linear Execution & Multi-Page Apps: 
+Demonstrate how to create straightforward input-output flows, then expand into multi-page designs for better user experience.
+* Local Deployment: 
+Show how to run a Streamlit app on a local machine for rapid prototyping and testing.
+* Project Proposal Refinement: 
+Guide participants in refining their initial project ideas, focusing on feasible scope and clear objectives.","* Learn to build a simple web application that serves the LLM pipelines to the users
+* Learn to build LLM solutions that can take in dynamic inputs from the users or existing data or files
+* [Project] Refine Project Proposal #1",
+9,"Monday, 14 July 2025",Beefing up and Deploying the Prototype,"* Complete week 9 hands-on (#8)
+* Quiz 3","Building AI Apps (Part #2)
+* Advanced Streamlit Features: 
+Delve into state management, form handling, callback functions, and other advanced capabilities that enable complex application flows.
+* Project Structure & Best Practices: 
+Discuss how to organize a Streamlit project for scalability, including folder structure, environment files, and modular code organization.
+* Streamlit Cloud Deployment: 
+Demonstrate secure deployment options, including password protection, to allow external users to test the application.
+* Containerization (Optional): 
+Introduce Docker basics, showing how to containerize a Streamlit app for consistent, portable deployment across different environments.","* Learn to deploy a web-based app to allow others to access and use
+* Learn to package the LLM POCs/MVPs into containerized image that has great compatibility with * various environments
+* Experience the deployment process on CStack which can be used by WOG officers without direct access to GCC",
+10,"Monday, 21 July 2025",Build Proof-of-Concept Prototype,,"Capstone Session
+* Core Processes as Python Scripts: 
+Walk participants through implementing the core logic of their proof-of-concept (PoC) in Python. Focus on the functional pieces (e.g., data retrieval, embeddings, prompt engineering) and how these components fit together in a larger pipeline.
+* Dynamic Inputs & Interactivity: 
+Illustrate how to integrate dynamic inputs (e.g., user queries, file uploads, real-time data) into the PoC, enabling users to interact meaningfully with the system.
+* Project Clarification & Consultation: 
+Allocate dedicated time for consultations, where instructors and peers can offer guidance, critique, and additional resources.","* Demonstrate the ability to conceptualize, design, and implement a complete AI application from ideation through final prototype, leveraging all the modules (LLMs, prompt engineering, embeddings, RAG, Streamlit, etc.) covered in the course.
+* Apply industry-standard methodologies (e.g., agile development, user-centric design) to structure the project’s lifecycle, from planning and requirements gathering to testing and deployment.
+* Apply and build Python-based AI application, incorporating retrieval-augmented generation, and integrate multiple components - LLM chaining, embedding-based search, and web front-end.",
+11,"Monday, 28 July 2025",,,,,
+12,"Monday, 4 August 2025",,,,,
+13,"Monday, 11 August 2025",,,,,
+14,"Monday, 18 August 2025",Assignment Submission,"Demo session for Selected PoCs
+* Selected individuals/teams will be informed in early-to-mid October
+* Project Sponsors & Stakeholders could be invited",,,"Submission
+Capstone Assignment and individual reflection via Politemall"
