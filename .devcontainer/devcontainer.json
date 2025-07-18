@@ -1,0 +1,10 @@
+{
+  "name": "Python 3",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+  "features": {},
+  "settings": {},
+  "extensions": [
+    "ms-python.python"
+  ]
+} 
